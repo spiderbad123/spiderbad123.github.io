@@ -1,3 +1,4 @@
+
 h1{
   font-size: 50px;
 }
@@ -12,17 +13,21 @@ body{
     /* background-color: grey; */
     
   }
+
+  
 .img{
  
     filter: brightness(30%);
-    width: 1263px; 
+    width: 100%; 
     height: 500px; 
     object-fit: cover;
     object-position: 100% 10%; 
+   
         
 }
 header{
     font-family:'Courier New', Courier, monospace;
+    width: 100%;
 }
   /* .bottom-left {
     position: absolute;
@@ -512,6 +517,9 @@ h5{
  border-bottom: none;
  
 }
+*{
+  padding-bottom: 0px;
+}
 .italic2{
   background-color: #2196F3;
   font-size:20px;
@@ -522,6 +530,7 @@ h5{
   color: white;
   display: inline-block;
   align-items: center;
+  padding-bottom: 0px;
   
 }
 .funix{
@@ -552,7 +561,7 @@ h5{
 }
 
 .bd2{
-  border: #7e7a7a solid 1px;
+  border:  solid 1px;
   width: 300px;
   padding-left: 5px;
   padding-bottom: 10px;
