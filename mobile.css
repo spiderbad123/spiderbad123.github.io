@@ -1,5 +1,35 @@
 @media(max-width:500px) {
-    body {
-      background-color: blue;
-    }
+  .thongtin{
+  
+    border-left:none;
   }
+  .duan{
+    border-right: none;
+    border-left:none;
+  }
+  .lilich{
+    border-right: none;
+    border-left:none;
+  }
+  .chungchi{
+    border-left:none;
+  }
+  .needtohide{
+    display: none;
+  }
+  *{
+    display: block;
+  }
+  
+  .centered{
+    display: none;
+  }
+  title{
+    display: none;
+  }
+  nav{
+    display: block;
+  }
+
+
+}
