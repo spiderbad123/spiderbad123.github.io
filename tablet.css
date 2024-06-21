@@ -1,15 +1,20 @@
-@media(max-width:768px) {
+@media only screen and (max-width: 768px) and (min-width: 501px) {
     body{
         width: 768px;
-        background-color: white;
+      
+        overflow-x: hidden; /* Hide horizontal scrollbar */
         
     }
+    
     .img{
         display: none;
             
     }
     .needtohide{
         display:  none;
+    }
+    h6{
+      display: none;
     }
     .center {
         text-align: center;
@@ -20,10 +25,10 @@
         padding-right: 50px ;
         padding-left: 50px;
       }
-      .grid-container {
-        display: grid;
-        grid-template-columns:50% 50% ;
+      h4{
+        visibility:hidden
       }
+      
       .pader{
         padding-left: 0px ;
       
@@ -75,15 +80,17 @@
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
       }
       .iconfull{
-        padding-top: 50px;
-        padding-left: 50px;
+        padding-top: 40px;
+        padding-left:30px;
         gap: 30px;
         color: #2196F3;
       }
+    
      
     .user-text{
         font-size: 11px;
     }
+  
     .describe{
   
      
@@ -104,7 +111,7 @@
       font-size: 11px;
       padding: 0px;
       font-size: 10px;
-
+      
       
     }
     .smalltetx{
@@ -113,7 +120,7 @@
     .Maincontainer{
       display: grid;
       grid-template-columns: auto auto;
-      grid-template-rows: auto auto auto;
+      grid-template-rows: ;
     
       gap: 30px;
       /* height: 50%; */
@@ -131,12 +138,8 @@
     .sigma{
       padding: 0px;
     }
-    .main1{
-      grid-row: 1 / 3;
-    }
-    .expre{
-      margin-bottom: 100px;
-    }
+   
+ 
     .bd2{
       width: 231px;
       font-size: 10px;
@@ -147,16 +150,19 @@
       width: 231px;
       font-size: 10px;
       padding: 0px;
+      padding-bottom: 66px ;
     }
     .bd{
       width: 231px;
       font-size: 10px;
       padding: 0px;
+      
     }
     .bd4{
       width: 231px;
       font-size: 10px;
       padding: 0px;
+      padding-bottom: 36px ;
     }
     .needtobesmall{
       font-size:10px;
@@ -174,3 +180,5 @@
       padding-bottom: 0px;
       
   }
+
+}
