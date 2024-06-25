@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="font.css" />
     <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="laptop.css" />
     <link rel="stylesheet" href="tablet.css" />
     <link rel="stylesheet" 
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -65,26 +66,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
   
   </div>
-  <div class="grid-item2">
+  <div id="info">
+    <div class="grid-item2">
     
-    <p><h2  class="needtext2"><i class="fa-solid fa-user smalltetx"></i>Thông tin cá nhân</h2>
-      <p class="sigma2"><b class="black2">Giới tính</b> : Nam</p></p>
-      <p class="sigma2"><b class="black2">Ngày sinh</b> : 10/12/2011</p></p>
-      <p class="sigma2"><b class="black2">Điện thoại</b> : (+84)88480666</p></p>
-      <p class="sigma2"><b class="black2">Email</b> : duongducdung.uk@gmail.com</p></p>
-      <p class="sigma2"><b class="black2">Địa chỉ</b> : 17 , Thắng Lợi , Sông Công , Thái Nguyên</p></p>
-      <p class="sigma2"><b class="black2">Website</b> : https://abc.tech</p>
-      <div class="moveicon">
-        <i class="fa-brands fa-twitter iconfull bird"></i>
-        <i class="fa-brands fa-facebook iconfull"></i>
-        <i class="fa-brands fa-google  iconfull"></i>
-        <i class="fa-brands fa-instagram iconfull"></i>
+      <p><h2  class="needtext2"><i class="fa-solid fa-user smalltetx"></i>Thông tin cá nhân</h2>
+        <div class="section-content">
+          <p class="sigma2"><b class="black2">Giới tính</b> : Nam</p></p>
+          <p class="sigma2"><b class="black2">Ngày sinh</b> : 10/12/2011</p></p>
+          <p class="sigma2"><b class="black2">Điện thoại</b> : (+84)88480666</p></p>
+          <p class="sigma2"><b class="black2">Email</b> : duongducdung.uk@gmail.com</p></p>
+          <p class="sigma2"><b class="black2">Địa chỉ</b> : 17 , Thắng Lợi , Sông Công , Thái Nguyên</p></p>
+          <p class="sigma2"><b class="black2">Website</b> : https://abc.tech</p>
+          <div class="moveicon">
+          <i class="fa-brands fa-twitter iconfull bird"></i>
+          <i class="fa-brands fa-facebook iconfull"></i>
+          <i class="fa-brands fa-google  iconfull"></i>
+          <i class="fa-brands fa-instagram iconfull"></i>
+        </div>
+        </div>
+        
+      <div class="submit-email">
+        <input type="email" id="email">
+        <p id="error-email"></p>
+        <button onclick="handleSubmit()">Submit</button>
       </div>
+        
       
     
-  
-  
+    
+    </div>
   </div>
+  
 </div>
 
 
@@ -228,6 +240,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
            </h5>
         </div>
      </div>
+     <hr width="50%" color=" #d6c08d" class="line">
      <div class="grid-item-cer ">
         <div class="spec2">
            <img src="image.png" class="s"
@@ -390,6 +403,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       <span class="icon-name">GitHub</span>
     </a>
   </div>
-</footer>
-  </body>
+  </footer>
+  <script src="script.js"></script>
+</body>
+  
 </html>
+

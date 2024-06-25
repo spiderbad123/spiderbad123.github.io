@@ -35,7 +35,7 @@
       }
 
       .png{
-        width: 231px;
+        width:220px;
         height: 150px;
       }
       .grid-item {
@@ -101,7 +101,7 @@
   }
     
     .cvcanhan{
-      width: 231px;
+      width:220px;
   
       padding: 0px;
     
@@ -141,28 +141,28 @@
    
  
     .bd2{
-      width: 231px;
+      width: 220px;
       font-size: 10px;
       padding: 0px;
       
     }
     .bd3{
-      width: 231px;
+      width:220px;
       font-size: 10px;
       padding: 0px;
-      padding-bottom: 66px ;
+      padding-bottom: 85px ;
     }
     .bd{
-      width: 231px;
+      width:220px;
       font-size: 10px;
       padding: 0px;
       
     }
     .bd4{
-      width: 231px;
+      width:220px;
       font-size: 10px;
       padding: 0px;
-      padding-bottom: 36px ;
+      padding-bottom: 19px ;
     }
     .needtobesmall{
       font-size:10px;
@@ -179,6 +179,18 @@
       align-items: center;
       padding-bottom: 0px;
       
+  }
+  .duan3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .grid-item-pro{
+    padding-left: 10px;
+  }
+  .lastpart{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
   }
 
 }

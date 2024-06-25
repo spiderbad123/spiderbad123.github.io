@@ -62,5 +62,23 @@
   .grid-item2{
     padding: 0px 0px;
   }
-  
+  .lastpart{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+
+  }
+  .project{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+  .item2{
+    margin-left:100px ;
+    margin-top: 30px;
+  }
+  .pro1{
+    margin-left:100px ;
+    margin-top: 30px;
+  }
 }
