@@ -19,10 +19,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     
     <header>
 
-      <header class="container">
-        <img src="banner.jpg" class="img"
- 
-        >
+      <header class="container-img">
+        <img src="banner.jpg" class="img">
 
           <div class="centered">
             
@@ -88,10 +86,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       <div class="submit-email">
         <input type="email" id="email">
         <p id="error-email"></p>
-        <button onclick="handleSubmit()">Submit</button>
+        <button  type="button" class="btn btn-primary" onclick="handleSubmit()">Submit</button>
       </div>
-        
-      
     
     
     </div>
@@ -101,26 +97,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 
 <div class="Maincontainer">
-  <div class="grid-item-main main1">
+  <div class="grid-item-main main1" id="exprerience" onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)">
     <div>
+     
     <p class="expre">Kinh Nghiệm</p><i class="fa-solid fa-toolbox toolbox1 pencil"></i>
-    <h5>Công ty Y</h5>
-    <p class="pforitalic">05/2022 - <i class="italic">Hiện tại</i></p>
-    <p class="contentmain">-Full Stack Developer</p>
-    <p class="contentmain">- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.</p>
-    <p class="contentmain2">- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL</p>
-    <h5>Công ty X</h5>
-    <p class="date">06/2021-04/2022</p>
-    <p class="web">Web Designer</p>
-    <p class="contentmain">- Thiết kế Website dự trên yêu cầu của khách hàng.</p>
-    <p class="contentmain">- Sử dụng các công cụ: Figma, Canva PTS.</p>
+    <div class="section-content">
+      <h5>Công ty Y</h5>
+      <p class="pforitalic">05/2022 - <i class="italic">Hiện tại</i></p>
+      <p class="contentmain">-Full Stack Developer</p>
+      <p class="contentmain">- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.</p>
+      <p class="contentmain2">- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL</p>
+      <h5>Công ty X</h5>
+      <p class="date">06/2021-04/2022</p>
+      <p class="web">Web Designer</p>
+      <p class="contentmain">- Thiết kế Website dự trên yêu cầu của khách hàng.</p>
+      <p class="contentmain">- Sử dụng các công cụ: Figma, Canva PTS.</p>
+    </div>
+    
+  </div>
+  <div class="control-view">
+    <button type="button" class="btn btn-warning view-more">View more</button>
+    <button type="button" class="btn btn-warning less-more">View less</button>
   </div>
 
   </div>
-  <div class="col-sm-">
-    <div class="row-sm-"></div>
-    <div class="grid-item-main"><p class="expre">Học Vấn</p>
-      <i class="fa-solid fa-pencil"></i>
+  
+    
+  <div class="grid-item-main" id="study" onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)">
+    <p class="expre">Học Vấn</p>
+    <i class="fa-solid fa-pencil"></i>
+    <div class="section-content">
+      
       <h5>Funix</h5>
       <p class="pforitalic">06/2021-05/2022</p>
       <p class="contentmain">- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
@@ -132,93 +139,108 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       <h5>Đại học Hà Nội</h5>
       <p class="pforitalic">08/2016-02/2018</p>
       <p class="contentmain">- Hệ từ xa, Chuyên ngành: Ngôn ngữ Nhật</p>
-      <p class="contentmain2">- GPA: 2.8/4</p>
-    
-    </div>
+      <p class="contentmain2">- GPA: 2.8/4</p></div>
+     
+      <div class="control-view">
+        <button type="button" class="btn btn-warning view-more">View more</button>
+        <button type="button" class="btn btn-warning less-more">View less</button>
+      </div>
   </div>
+ 
   
   
-  <div class="grid-item-main">
+  <div class="grid-item-main" id="act">
     <p class="expre">Hoạt Động</p>
     <i class="fa-solid fa-toolbox"></i>
-    <h5>FPT Edu Hackathon 2019</h5>
-    <p class="pforitalic">03/2019-05/2019</p>
-    <p class="contentmain">- Giải 3 bảng A</p>
-    <p class="contentmain2">- Đề tài: Trang web về phân loại rác thải.</p>
-    <h5>Câu lạc bộ Z</h5>
-    <p class="pforitalic">08/2018-08/2019</p>
-    <p class="contentmain2">- Trưởng ban chuyên môn</p>
+    <div class="section-content">
+      <h5>FPT Edu Hackathon 2019</h5>
+      <p class="pforitalic">03/2019-05/2019</p>
+      <p class="contentmain">- Giải 3 bảng A</p>
+      <p class="contentmain2">- Đề tài: Trang web về phân loại rác thải.</p>
+      <h5>Câu lạc bộ Z</h5>
+      <p class="pforitalic">08/2018-08/2019</p>
+      <p class="contentmain2">- Trưởng ban chuyên môn</p>
+  
+      <h5>Câu lạc bộ Z</h5>
+      <p class="pforitalic">08/2016</p>
+      <p class="contentmain">- Hỗ trợ tổ chức tuần lễ văn hóa Việt
+        Nam - Nhật Bản</p>
+    </div>
 
-    <h5>Câu lạc bộ Z</h5>
-    <p class="pforitalic">08/2016</p>
-    <p class="contentmain">- Hỗ trợ tổ chức tuần lễ văn hóa Việt
-      Nam - Nhật Bản</p>
 
   
   </div>
-  <div class="grid-item-main-fav">
+  <div class="grid-item-main-fav" id="favor">
     <div class="fav">
-
+      
       <p class="expre2">Sở thích</p>
       <i class="fa-solid fa-binoculars"></i>
     </div>
-
-    <div class="circle">
-      <i class="fa-solid fa-bullhorn horn"></i>
-      <pre class="contentmainfav">  Âm nhạc</pre>
+    <div class="section-content">
+      <div class="circle">
+        <i class="fa-solid fa-bullhorn horn"></i>
+        <pre class="contentmainfav">  Âm nhạc</pre>
+      </div>
+      <div class="circle pad">
+        <i class="fa-solid fa-car horn"></i>
+        <pre class="contentmainfav">  Du lịch</pre>
+      </div>
+      <div class="circle pad2">
+        <i class="fa-solid fa-chess horn"></i>
+        <pre class="contentmainfav">Chơi Game</pre>
+      </div>
+      <div class="circle pad2">
+        <i class="fa-solid fa-cart-shopping horn"></i>
+        <pre class="contentmainfav">Nấu ăn</pre>
+      </div>
     </div>
-    <div class="circle pad">
-      <i class="fa-solid fa-car horn"></i>
-      <pre class="contentmainfav">  Du lịch</pre>
-    </div>
-    <div class="circle pad2">
-      <i class="fa-solid fa-chess horn"></i>
-      <pre class="contentmainfav">Chơi Game</pre>
-    </div>
-    <div class="circle pad2">
-      <i class="fa-solid fa-cart-shopping horn"></i>
-      <pre class="contentmainfav">  Nấu ăn</pre>
-    </div>
+    
   </div>
-  <div class="grid-item-main-job">
+  <div class="grid-item-main-job" id="job">
     
-      <p class="expre">Kỹ Năng</p>
+    <p class="expre">Kỹ Năng</p>
     <i class="fa-solid fa-wrench"></i>
-    <p class="skill">HTML/CSS: Fundamental</p>
-    <div class="boder"></div>
-    <div class="boder2"></div>
-    <div class="boder2"></div>
-    <p class="skill">Javascript: Intermediate</p>
-    <div class="boder"></div>
-    <div class="boder"></div>
-    <div class="boder2"></div>
-    <p class="skill">NodeJS: Intermediate</p>
-    <div class="boder"></div>
-    <div class="boder"></div>
-    <div class="boder2"></div>
-    <p class="skill">Bootstrap 5: Fundamental</p>
-    <div class="boder"></div>
-    <div class="boder2"></div>
-    <div class="boder2"></div>
+    <div class="section-content">
+      <p class="skill">HTML/CSS: Fundamental</p>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <div class="boder2"></div>
+      <p class="skill">Javascript: Intermediate</p>
+      <div class="boder"></div>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <p class="skill">NodeJS: Intermediate</p>
+      <div class="boder"></div>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <p class="skill">Bootstrap 5: Fundamental</p>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <div class="boder2"></div>
+    </div>
+    
 
 
 
     </div>
     
-  <div class="grid-item-main-job">
-
+  <div class="grid-item-main-job" id="lang">
     <p class="expre">Ngôn ngữ</p>
     <i class="fa-solid fa-wrench"></i>
-    <p class="skill">Tiếng Anh - IELTS 7.0</p>
-
-    <div class="boder"></div>
-    <div class="boder"></div>
-    <div class="boder2"></div>
-
-    <p class="skill">Tiếng Nhật - JLPT N4</p>
-    <div class="boder"></div>
-    <div class="boder2"></div>
-    <div class="boder2"></div>
+    <div class="section-content">
+     
+      <p class="skill">Tiếng Anh - IELTS 7.0</p>
+  
+      <div class="boder"></div>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+  
+      <p class="skill">Tiếng Nhật - JLPT N4</p>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <div class="boder2"></div>
+    </div>
+  
 
   </div> 
 

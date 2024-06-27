@@ -1,16 +1,20 @@
-
+#info{
+  background-color: #f7f7f7;
+}
 h1{
   font-size: 50px;
 }
 
 /* phần 1 */
-.container {
+.container-img {
     position: relative;
     text-align: center;
     color: white;
     /* background-color: grey; */
+   
     
   }
+ 
 
   
 .img{
@@ -263,9 +267,7 @@ h5{
   font-size: 30px;
 
 }
-.main1{
-  width: 100%;
-}
+
 .expre{
   color: #7e7a7a;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -483,6 +485,7 @@ h5{
 .blank2{
   margin-top: 10px;
 }
+
 .line{
   width: 80%;
   margin: 0 auto;
@@ -517,6 +520,7 @@ h5{
 }
 *{
   padding-bottom: 0px;
+  max-width: 100%;
 }
 .italic2{
   background-color: #2196F3;
@@ -630,4 +634,34 @@ footer {
 .icon-name {
   margin-left: 10px;
   font-size: 16px;
+}
+
+/* Ẩn thông tin */
+#info .section-content{
+  display: none;
+  
+}
+body{
+  background-color: red;
+}
+#error-email{
+  color: red;
+}
+.submit-email{
+  margin-left: 100px;
+}
+#exprerience .section-content,
+#job .section-content,
+#lang .section-content,
+#act .section-content,
+#favor .section-content,
+#study .section-content{
+  display: none;
+  
+}
+
+/* Ẩn view more , view lesss */
+.view-more,
+.less-more{
+  display: none;
 }

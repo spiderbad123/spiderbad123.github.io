@@ -1,8 +1,17 @@
 @media only screen and (min-width: 1200px) {
     #info .section-content{
         display: none;
+        
     }
     body{
         background-color: red;
     }
+    #error-email{
+        color: red;
+    }
+    .submit-email{
+        margin-left: 100px;
+    }
+    
+    
 }
