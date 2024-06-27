@@ -35,3 +35,8 @@ function handleOnMouseOut(element){
    const viewMore = element.querySelector('.view-more')
     viewMore.style.display = 'none'
 }
+function handleViewMore(element){
+    const parentElement = element.closest(".parent")
+    const sectionContent = parentElement.querySelectorAll('.section-content')
+    console.log('check section', sectionContent)
+}

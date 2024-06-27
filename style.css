@@ -661,7 +661,13 @@ body{
 }
 
 /* Ẩn view more , view lesss */
-.view-more,
-.less-more{
+.view-more
+{
   display: none;
 }
+
+.less-more
+{
+  display: none;
+}
+
