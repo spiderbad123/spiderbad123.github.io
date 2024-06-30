@@ -81,4 +81,10 @@
     margin-left:100px ;
     margin-top: 30px;
   }
+  .social-media-icons{
+    white-space: nowrap; /* Thêm này để ngăn text bị xuống dòng */
+  }
+  body {
+    overflow-x: hidden;
+  }
 }

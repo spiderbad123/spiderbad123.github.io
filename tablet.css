@@ -176,10 +176,11 @@
       font-size: 14px;
       color: white;
       display: inline-block;
-      align-items: center;
+      text-align: center;
       padding-bottom: 0px;
       
   }
+  	
   .duan3{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -191,6 +192,15 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
+  }
+  .pencil{
+    font-size: 30px;
+  }
+  .social-media-icons{
+    white-space: nowrap; /* Thêm này để ngăn text bị xuống dòng */
+  }
+  body {
+    overflow-x: hidden;
   }
 
 }

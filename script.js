@@ -29,14 +29,24 @@ function handleOnMouseOver(element){
    
     const viewMore = element.querySelector('.view-more')
     viewMore.style.display = 'inline-block'
+    
+
 }
 
 function handleOnMouseOut(element){
    const viewMore = element.querySelector('.view-more')
     viewMore.style.display = 'none'
 }
-function handleViewMore(element){
-    const parentElement = element.closest(".parent")
-    const sectionContent = parentElement.querySelectorAll('.section-content')
-    console.log('check section', sectionContent)
-}
+function handleViewMore(element) {
+    const parentElement = element.closest(".parent");
+    const sectionContent = parentElement.querySelector(".section-content");
+    const viewMore = parentElement.querySelector(".view-more");
+  
+    if (sectionContent.style.display === "none") {
+      sectionContent.style.display = "block";
+      viewMore.innerHTML = "View less";
+    } else {
+      sectionContent.style.display = "none";
+      viewMore.innerHTML = "View more";
+    }
+  }
