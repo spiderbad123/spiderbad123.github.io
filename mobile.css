@@ -87,4 +87,7 @@
   body {
     overflow-x: hidden;
   }
+  .moveicon{
+    margin-left: 60px;
+  }
 }
