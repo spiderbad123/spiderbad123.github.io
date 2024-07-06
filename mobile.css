@@ -1,0 +1,93 @@
+@media only screen and (max-width: 500px)  {
+  .img{
+    display: none;
+        
+  }
+  .thongtin{
+  
+    border-left:none;
+    font-size: small;
+  }
+  .duan{
+    border-right: none;
+    border-left:none;
+    font-size: small;
+  }
+  .lilich{
+    border-right: none;
+    border-left:none;
+    font-size: small;
+  }
+  .chungchi{
+    border-left:none;
+    font-size: small;
+  }
+  .needtohide{
+    display: none;
+  }
+
+  
+  .centered{
+    display: none;
+  }
+  title{
+    display: none;
+  }
+  /* trying to turn it rows */
+
+  .grid-container{
+    display: grid;
+   
+    grid-template-columns: 500px;
+
+  }
+  .Maincontainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto ;
+  
+    gap: 30px;
+    /* height: 50%; */
+  
+  }
+  .box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .iconfull{
+    font-size: 10px;
+    padding-left: 40px;
+  }
+  .grid-item2{
+    padding: 0px 0px;
+  }
+  .lastpart{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+
+  }
+  .project{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+  .item2{
+    margin-left:100px ;
+    margin-top: 30px;
+  }
+  .pro1{
+    margin-left:100px ;
+    margin-top: 30px;
+  }
+  .social-media-icons{
+    white-space: nowrap; /* Thêm này để ngăn text bị xuống dòng */
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .moveicon{
+    margin-left: 60px;
+  }
+}

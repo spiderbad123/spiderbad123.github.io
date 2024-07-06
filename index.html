@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="destop.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="tablet.css" />
+
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>Assignment03</title>
+  </head>
+  <body>
+    
+    <header>
+
+      <header class="container-img">
+        <img src="banner.jpg" class="img">
+
+          <div class="centered">
+            
+            <h1>Dương Đức Dũng</h1>
+            <h4>Full Stack Developer</h4>
+          </div>
+        </header>2
+      
+        
+    </header>
+    <div class="main-header">
+      <nav>
+        <div class="box-container">
+          <div class="wrapper thongtin">
+            <a href="#"><i class="fa-solid fa-user"></i>Thông tin</a>
+          </div>
+          <div class="wrapper lilich">
+            <a href="#"><i class="fa-solid fa-file"></i>Lý lịch</a>
+          </div>
+          <div class="wrapper center">
+            <h3 class="needtohide">Dương Đức Dũng</h3>
+            <h6 class="needtohide">Full Stack Developer</h6>
+          </div>
+          <div class="wrapper chungchi">
+            <a href="#"><i class="fa-solid fa-envelope"></i>Chứng chỉ</a>
+          </div>
+          <div class="wrapper duan">
+            <a href="#"><i class="fa-solid fa-star"></i>Dự Án</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+<div class="grid-container">
+  <div class="grid-item">
+    
+    <p class="needtext"><h2><i class="fa-solid fa-crosshairs smalltetx"></i>Mục tiêu nghề nghiệp</h2>
+      <p class="sigma">
+
+
+        Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack Developer, có thể vận dụng những kiến thức đã được trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất công việc được giao.</p></p>
+
+  
+  </div>
+  <div id="info">
+    <div class="grid-item2">
+    
+      <p><h2  class="needtext2"><i class="fa-solid fa-user smalltetx"></i>Thông tin cá nhân</h2>
+        <div class="section-content">
+          <p class="sigma2"><b class="black2">Giới tính</b> : Nam</p></p>
+          <p class="sigma2"><b class="black2">Ngày sinh</b> : 10/12/2011</p></p>
+          <p class="sigma2"><b class="black2">Điện thoại</b> : (+84)88480666</p></p>
+          <p class="sigma2"><b class="black2">Email</b> : duongducdung.uk@gmail.com</p></p>
+          <p class="sigma2"><b class="black2">Địa chỉ</b> : 17 , Thắng Lợi , Sông Công , Thái Nguyên</p></p>
+          <p class="sigma2"><b class="black2">Website</b> : https://abc.tech</p>
+          <div class="moveicon">
+            <i class="fa-brands fa-twitter iconfull bird"></i>
+            <i class="fa-brands fa-facebook iconfull"></i>
+            <i class="fa-brands fa-google  iconfull"></i>
+            <i class="fa-brands fa-instagram iconfull"></i>
+        </div>
+        </div>
+        
+      <div class="submit-email">
+        <input type="email" id="email">
+        <p id="error-email"></p>
+        <button  type="button" class="btn btn-primary" onclick="handleSubmit()">Submit</button>
+      </div>
+    
+    
+    </div>
+  </div>
+  
+</div>
+
+
+<div class="Maincontainer">
+  <div class="grid-item-main main1 parent" id="exprerience" onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)" >
+    <div>
+     
+    <p class="expre">Kinh Nghiệm</p><i class="fa-solid fa-toolbox toolbox1 pencil"></i>
+    <div class="section-content">
+      <h5>Công ty Y</h5>
+      <p class="pforitalic">05/2022 - <i class="italic">Hiện tại</i></p>
+      <p class="contentmain">-Full Stack Developer</p>
+      <p class="contentmain">- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.</p>
+      <p class="contentmain2">- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL</p>
+      <h5>Công ty X</h5>
+      <p class="date">06/2021-04/2022</p>
+      <p class="web">Web Designer</p>
+      <p class="contentmain">- Thiết kế Website dự trên yêu cầu của khách hàng.</p>
+      <p class="contentmain">- Sử dụng các công cụ: Figma, Canva PTS.</p>
+    </div>
+    
+  </div>
+  <div class="control-view">
+    <button type="button" class="btn btn-warning view-more"  onclick="handleViewMore(this)">View more</button>
+    
+  </div>
+
+  </div>
+  
+    
+  <div class="grid-item-main parent" id="study" onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)">
+    <p class="expre">Học Vấn</p>
+    <i class="fa-solid fa-pencil pencil"></i>
+    <div class="section-content">
+      
+      <h5>Funix</h5>
+      <p class="pforitalic">06/2021-05/2022</p>
+      <p class="contentmain">- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+      <p class="contentmain2">- GPA: 9/10</p>
+      <h5>Cử nhân - ĐH FPT</h5>
+      <p class="pforitalic">08/2016-07/2019</p>
+      <p class="contentmain">- Chuyên ngành: Kỹ thuật phần mềm.</p>
+      <p class="contentmain2">- GPA: 3.2/4</p>
+      <h5>Đại học Hà Nội</h5>
+      <p class="pforitalic">08/2016-02/2018</p>
+      <p class="contentmain">- Hệ từ xa, Chuyên ngành: Ngôn ngữ Nhật</p>
+      <p class="contentmain2">- GPA: 2.8/4</p></div>
+     
+      <div class="control-view">
+        <button type="button" class="btn btn-warning view-more"  onclick="handleViewMore(this)">View more</button>
+      
+      </div>
+  </div>
+ 
+  
+  
+  <div class="grid-item-main parent" id="act" onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)">
+    <p class="expre">Hoạt Động</p>
+    <i class="fa-solid fa-toolbox pencil"></i>
+    <div class="section-content">
+      <h5>FPT Edu Hackathon 2019</h5>
+      <p class="pforitalic">03/2019-05/2019</p>
+      <p class="contentmain">- Giải 3 bảng A</p>
+      <p class="contentmain2">- Đề tài: Trang web về phân loại rác thải.</p>
+      <h5>Câu lạc bộ Z</h5>
+      <p class="pforitalic">08/2018-08/2019</p>
+      <p class="contentmain2">- Trưởng ban chuyên môn</p>
+  
+      <h5>Câu lạc bộ Z</h5>
+      <p class="pforitalic">08/2016</p>
+      <p class="contentmain">- Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản</p>
+       
+    </div>
+    <div class="control-view">
+      <button type="button" class="btn btn-warning view-more"  onclick="handleViewMore(this)">View more</button>
+    
+  </div>
+    
+
+
+  
+  </div>
+  <div class="grid-item-main-fav parent" id="favor"  onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)" >
+    <div class="fav">
+      
+      <p class="expre2">Sở thích</p>
+      <i class="fa-solid fa-binoculars pencil"></i>
+    </div>
+    <div class="section-content">
+      <div class="circle">
+        <i class="fa-solid fa-bullhorn horn"></i>
+        <pre class="contentmainfav">  Âm nhạc</pre>
+      </div>
+      <div class="circle pad">
+        <i class="fa-solid fa-car horn"></i>
+        <pre class="contentmainfav">  Du lịch</pre>
+      </div>
+      <div class="circle pad2">
+        <i class="fa-solid fa-chess horn"></i>
+        <pre class="contentmainfav">Chơi Game</pre>
+      </div>
+      <div class="circle pad2">
+        <i class="fa-solid fa-cart-shopping horn"></i>
+        <pre class="contentmainfav">Nấu ăn</pre>
+      </div>
+    </div>
+    <div class="control-view">
+      <button type="button" class="btn btn-warning view-more"  onclick="handleViewMore(this)">View more</button>
+    
+  </div>
+    
+  </div>
+  <div class="grid-item-main-job parent" id="job"  onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)">
+    
+    <p class="expre">Kỹ Năng</p>
+    <i class="fa-solid fa-wrench pencil"></i>
+    <div class="section-content">
+      <p class="skill">HTML/CSS: Fundamental</p>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <div class="boder2"></div>
+      <p class="skill">Javascript: Intermediate</p>
+      <div class="boder"></div>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <p class="skill">NodeJS: Intermediate</p>
+      <div class="boder"></div>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <p class="skill">Bootstrap 5: Fundamental</p>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <div class="boder2"></div>
+    </div>
+    <div class="control-view">
+      <button type="button" class="btn btn-warning view-more"  onclick="handleViewMore(this)">View more</button>
+    
+  </div>
+    
+
+
+
+    </div>
+    
+  <div class="grid-item-main-job parent" id="lang"  onmouseover="handleOnMouseOver(this)" onmouseout="handleOnMouseOut(this)">
+    <p class="expre">Ngôn ngữ</p>
+    <i class="fa-solid fa-book pencil"></i>
+    <div class="section-content">
+     
+      <p class="skill">Tiếng Anh - IELTS 7.0</p>
+  
+      <div class="boder"></div>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+  
+      <p class="skill">Tiếng Nhật - JLPT N4</p>
+      <div class="boder"></div>
+      <div class="boder2"></div>
+      <div class="boder2"></div>
+      
+    </div>
+    <div class="control-view">
+      <button type="button" class="btn btn-warning view-more"  onclick="handleViewMore(this)">View more</button>
+    
+  </div>
+
+  </div> 
+  
+</div>
+<div class="parenthy">
+  <div class="lastpart">
+     <div class="grid-item-cer">
+        <h3 class="certify">Chứng Chỉ - Giải Thưởng</h3>
+        <div class="spec">
+           <img src="s.jpg" class="s"
+              width="150px"
+              height="200px"
+              >
+           <div class="blank">
+              <h5 class="giaikk">
+                 ĐẠT GIẢI KHUYẾN KHÍCH KHỐI 7 TOÀN QUỐC - IOE
+                 <p class="provekk">-Chứng chỉ được cấp bỏi Internet Olympiads of English</p>
+           </div>
+           </h5>
+        </div>
+     </div>
+   
+     <div class="grid-item-cer ">
+        <div class="spec2">
+           <img src="image.png" class="s"
+              width="150px"
+              height="200px"
+              >
+           <h5 class="giaikk">
+              ĐẠT HUY CHƯƠNG BẠC TOÁN CẤP TỈNH VIOEDU
+              <p class="provekk">-Huy chương bạc cấp tỉnh toán cuộc thi toán qua mạng VIOEDU</p>
+           </h5>
+        </div>
+     </div>
+  </div>
+  <hr width="50%" color=" #d6c08d" class="line">
+  <div class="lastpart">
+     <div class="grid-item-cer">
+        <div class="spec3">
+           <img src="2024_2_2_1305289694file01.jpg" class="s3"
+              width="150px"
+              height="200px"
+              >
+           <div class="blank2">
+              <h5 class="giaikk">
+                 ĐẠT GIẢI KHUYẾN KHÍCH KHỐI 7 TOÀN QUỐC - IOE
+                 <p class="provekk">-Chứng chỉ được cấp bỏi Internet Olympiads of English</p>
+           </div>
+           </h5>
+        </div>
+     </div>
+  </div>
+ </div>
+
+ <div>
+  <h3 class="duan3">Dự Án</h3>
+	<div class="project">
+		<div class="grid-item-pro pader">
+			<img src="project_1.png" 
+  width="300px"
+  height="240px"
+  class="png"
+  >
+				<div class="cv">
+					<div class="cvcanhan vccanhan">
+						<h7  class="needtobebig" >CV CÁ NHÂN</h7>
+					</div>
+					<div class="bd">
+						<div  class="italic2">
+              <div class="containor">
+                <p class="user-text1 year">2021</p>
+              </div>
+					
+						</div>
+            
+              <i class="fa-solid fa-user user needtobesmall"></i>
+              <p class="funix user-text1 needtobesmall">Funix</p>
+              <i class="fa-solid fa-lightbulb user needtobesmall"></i>
+              <p class="funix user-text1 needtobesmall">Developer</p>
+            
+						
+					</div>
+					<div class="bd2">
+						<p class="describe">Mô tả</p>
+						<p class="funix3 user-text">Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp.</p>
+					</div>
+					<div class="bd2">
+						<p class="describe">Nhiệm vụ</p>
+						<p class="funix3 user-text">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p>
+					</div>
+					<div class="bd3">
+						<p class="describe">Công nghệ</p>
+						<p class="funix3">- HTML, CSS</p>
+					</div>
+				</div>
+			</div>
+
+				<div class="grid-item-pro item2">
+					<img src="project_2.png"
+    width="300px"
+    height="240px"
+    class="png"
+    >
+						<div class="cv">
+							<div class="cvcanhan needtobebig">
+								<h7 >TRANG WEB QUẢN LÝ THÚ CƯNG</h7>
+							</div>
+							<div class="bd">
+								<div  class="italic2 needtobesmall year">
+									<p>2021</p>
+								</div>
+								<i class="fa-solid fa-user user needtobesmall"></i>
+								<p class="funix needtobesmall">Funix</p>
+								<i class="fa-solid fa-lightbulb user needtobesmall"></i>
+								<p class="funix needtobesmall">Developer</p>
+							</div>
+							<div class="bd2">
+								<p class="describe">Mô tả</p>
+								<p class="funix3">Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức năng thêm / sửa / xóa.</p>
+							</div>
+							<div class="bd2">
+								<p class="describe">Nhiệm vụ</p>
+								<p class="funix3">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p>
+							</div>
+							<div class="bd2">
+								<p class="describe">Công nghệ</p>
+								<p class="funix3">- HTML, CSS, Javascript</p>
+							</div>
+						</div>
+					</div>
+					<div class="project pro1">
+						<div class="grid-item-pro">
+							<img src="project_3.png"
+      width="300px"
+      height="240px"
+      class="png"
+      >
+								<div class="cv">
+									<div class="cvcanhan">
+										<h7 class="needtobebig">TRANG WEB XEM TIN TỨC</h7>
+									</div>
+									<div class="bd">
+										<div  class="italic2 year">
+											<p>2021</p>
+										</div>
+										<i class="fa-solid fa-user user needtobesmall"></i>
+										<p class="funix needtobesmall">Funix</p>
+										<i class="fa-solid fa-lightbulb user needtobesmall"></i>
+										<p class="funix needtobesmall">Developer</p>
+									</div>
+									<div class="bd2">
+										<p class="describe">Mô tả</p>
+										<p class="funix3">Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ khóa.</p>
+									</div>
+									<div class="bd2">
+										<p class="describe">Nhiệm vụ</p>
+										<p class="funix3">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p>
+									</div>
+									<div class="bd4">
+										<p class="describe">Công nghệ</p>
+										<p class="funix3">- HTML, CSS, Javascript</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+<footer>
+  
+    <div class="social-media-icons ">
+      <div class="social-items">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <span class="circle-container">
+            <i class="fab fa-facebook-f space"></i>
+          </span>
+          <span class="icon-name">Facebook</span>
+        </a>
+      </div>
+      <div class="social-items">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <span class="circle-container">
+            <i class="fab fa-linkedin-in space"></i>
+          </span>
+          <span class="icon-name">Linkedin</span>
+        </a>
+      </div>
+     
+     <div class="social-items">
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <span class="circle-container">
+          <i class="fab fa-github space"></i>
+        </span>
+        <span class="icon-name githubs">GitHub</span>
+      </a>
+     </div>
+      
+    
+  </div>
+  
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+  
+</html>
+
